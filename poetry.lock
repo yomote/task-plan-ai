@@ -227,7 +227,7 @@ perplexity = ["langchain-perplexity"]
 
 [[package]]
 name = "langchain-core"
-version = "0.3.59"
+version = "0.3.61"
 description = "Building applications with LLMs through composability"
 category = "main"
 optional = false
@@ -235,26 +235,23 @@ python-versions = ">=3.9"
 
 [package.dependencies]
 jsonpatch = ">=1.33,<2.0"
-langsmith = ">=0.1.125,<0.4"
+langsmith = ">=0.1.126,<0.4"
 packaging = ">=23.2,<25"
-pydantic = [
-    {version = ">=2.5.2,<3.0.0", markers = "python_full_version < \"3.12.4\""},
-    {version = ">=2.7.4,<3.0.0", markers = "python_full_version >= \"3.12.4\""},
-]
+pydantic = ">=2.7.4"
 PyYAML = ">=5.3"
 tenacity = ">=8.1.0,<8.4.0 || >8.4.0,<10.0.0"
 typing-extensions = ">=4.7"
 
 [[package]]
 name = "langchain-openai"
-version = "0.3.16"
+version = "0.3.18"
 description = "An integration package connecting OpenAI and LangChain"
 category = "main"
 optional = false
 python-versions = ">=3.9"
 
 [package.dependencies]
-langchain-core = ">=0.3.58,<1.0.0"
+langchain-core = ">=0.3.61,<1.0.0"
 openai = ">=1.68.2,<2.0.0"
 tiktoken = ">=0.7,<1"
 
@@ -404,7 +401,7 @@ python-versions = ">=3.8"
 
 [[package]]
 name = "pydantic"
-version = "2.11.4"
+version = "2.11.5"
 description = "Data validation using Python type hints"
 category = "main"
 optional = false
@@ -624,7 +621,7 @@ cffi = ["cffi (>=1.11)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "2338fd28e70ffea196416825a0b6d59c0e817d337ef5a91bd4e12b081fa8fcda"
+content-hash = "60c030b0aedcac9b88332356fa44ec208fdc827087c47f7d74cb852c18d5a746"
 
 [metadata.files]
 annotated-types = []
